@@ -3,15 +3,14 @@
 # Uma string e retorne True se a string for um palíndromo e False caso contrário.
 # Exemplo: Se o usuário digitar "radar", a função deve retornar True.
 
-def palindromo():
-    palavra = input("Digite uma palavra: ")
+def palindromo(palavra):
     
     if palavra == palavra[::-1]:
         return print("Verdadeiro")
     else:
         return print("Falso")
     
-palindromo()
+palindromo("radar")
 
 # Questão 02) Máximo de uma lista:
 # Descrição: Crie uma função chamada maximo que peça ao usuário para 
@@ -34,7 +33,7 @@ def maiorNumero():
             
     return print(maior)
 
-maiorNumero()
+
 
 # Questão 03) Calcular a média:
 # Descrição: Crie uma função chamada media que peça ao usuário para digitar 
@@ -54,7 +53,7 @@ def mediaNumero():
     
     return print(media)
 
-mediaNumero()
+
 
 # Questao 04) Contar caracteres:
 # Descrição: Crie uma função chamada contarCaracteres que peça ao usuário para digitar 
@@ -74,4 +73,3 @@ def ContarCaracteres():
             
     return print(letraDicionario)
 
-ContarCaracteres()

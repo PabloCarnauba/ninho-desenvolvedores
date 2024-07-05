@@ -55,7 +55,7 @@ def escolhaGolpe(pokemon):
         except ValueError:
             pass
         print("Escolha inválida. Tente novamente.")
-        
+
 # Inicializa a batalha
 pokemonJogador = escolhaPokemon()
 pokemonOponente = random.choice([p for p in pokemons.keys() if p != pokemonJogador])
